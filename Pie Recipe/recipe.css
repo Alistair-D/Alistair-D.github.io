@@ -20,3 +20,16 @@ h2 {
 a{
     color:#A4A400;
 }
+ul {
+    p {background-color:khaki;
+    font-family:Georgia, 'Times New Roman', Times, serif}
+}
+
+ol {
+    p {padding-bottom: none;
+    padding:0px;
+    margin:1px;
+font-family:monospace;}
+    
+
+}
