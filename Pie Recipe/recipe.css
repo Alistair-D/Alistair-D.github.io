@@ -23,6 +23,7 @@ a{
 ul {
     p {background-color:khaki;
     font-family:Georgia, 'Times New Roman', Times, serif}
+    li {list-style-image: url('PieBullet.png');}
 }
 
 ol {
@@ -30,6 +31,5 @@ ol {
     padding:0px;
     margin:1px;
 font-family:monospace;}
-    
 
 }
