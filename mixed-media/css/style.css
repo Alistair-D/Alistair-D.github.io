@@ -1,5 +1,5 @@
 table, th, td {
-    border: 1px solid black;
+    border: 5px solid black;
     border-collapse:collapse;
     padding: 10px;
 }
@@ -8,11 +8,23 @@ table {
     padding: 1px;
 }
 
-th {background:rgb(243, 242, 240);}
+th {background:rgb(105, 75, 133);}
 
-.rheader { background: rgb(252, 252, 252); }
+.rheader { background: rgb(90, 29, 95); }
 
 body {
-    background: linear-gradient(#f5f2f1, #000000);
+    background-color: black;
     background-size:100% 350%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1712039658659-7019cfe912e1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWFydGglMjBzcGFjZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color:white;
+}
+
+.medium {width: 275px; height:275px; }
+
+video {
+    width:300px;
+    padding:none;
 }
