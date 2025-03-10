@@ -1,5 +1,5 @@
 table, th, td {
-    border: 5px solid black;
+    border: 5px solid rgb(93, 143, 86);
     border-collapse:collapse;
     padding: 10px;
 }
@@ -8,14 +8,17 @@ table {
     padding: 1px;
 }
 
-th {background:rgb(105, 75, 133);}
+th {background:rgb(250, 250, 250);
+color:rgb(255, 255, 255);
+background: linear-gradient(#0d290d, #0a1441);
+}
 
-.rheader { background: rgb(90, 29, 95); }
+.rheader {background: linear-gradient(#13440e, #0a1441); }
 
 body {
     background-color: black;
     background-size:100% 350%;
-    background-image: url("https://plus.unsplash.com/premium_photo-1712039658659-7019cfe912e1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWFydGglMjBzcGFjZXxlbnwwfHwwfHx8MA%3D%3D");
+    background: linear-gradient(#5bd0d4, #055a45);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
@@ -28,3 +31,17 @@ video {
     width:300px;
     padding:none;
 }
+div1 {
+    color:rgb(248, 230, 68);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+div2 { 
+    color:rgb(159, 233, 159);
+
+}
+
+div3 { color:rgb(170, 244, 253);
+
+}
+
