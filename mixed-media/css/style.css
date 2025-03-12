@@ -1,7 +1,11 @@
+* {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+
 table, th, td {
     border: 5px solid rgb(93, 143, 86);
     border-collapse:collapse;
     padding: 10px;
+    font-family:
 }
 
 table {
