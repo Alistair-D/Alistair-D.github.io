@@ -1,4 +1,4 @@
-* {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
 
 
 table, th, td {
@@ -42,10 +42,10 @@ div1 {
 
 div2 { 
     color:rgb(159, 233, 159);
-
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 div3 { color:rgb(170, 244, 253);
-
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
