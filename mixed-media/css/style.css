@@ -27,6 +27,7 @@ body {
     background-position: center center;
     background-size: 150% 300%;
     color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .medium {width: 275px; height:275px; }
@@ -46,6 +47,6 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 div3 { color:rgb(170, 244, 253);
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
