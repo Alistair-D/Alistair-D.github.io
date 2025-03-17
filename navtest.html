@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proper Nagivation Bar</title>
+    <style>
+        * { font-family:sans-serif;}
+        nav {
+            background: green;
+            width: 100%;
+            padding: 10px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+            top: 0;
+            left: 0;
+            position:fixed;
+            z-index: 999;
+            display:flex;
+            justify-content: space-between
+        }
+
+        nav a{
+            font-weight: bold;
+            color:greenyellow;
+            background: #333;
+            padding:10px;
+            text-decoration: none;
+        }
+
+        nav a:hover { background: #777;}
+
+        main {padding-top: 3.5rem;}
+
+        body{ background: lightblue; color: #111;}
+        
+        footer {text-align: center;}
+
+        @media (max-width: 768px) {
+            body{background: darkslategray; color:white;}
+            main{padding-top: 30vh;}
+            nav a {border: 1px solid white;
+            text-align: center;}
+        }
+
+        @media (max-width: 480px) {
+            body {background: linear-gradient(90deg, #00008b,#483d8b); }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#top">Top</a>
+        <a href="#boy">Bottom</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </nav>
+    <main id="top">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit metus, lacinia lobortis sapien ac, cursus porttitor dui. Nulla tincidunt nulla elit, et posuere turpis accumsan in. Mauris ullamcorper nisl eu dui ullamcorper, ac posuere neque fermentum. Sed eget tristique dui. Nullam convallis felis ligula, eget dictum felis imperdiet vel. Nam vehicula sed leo eget pharetra. Suspendisse elementum arcu a nulla vehicula dignissim. Nulla scelerisque nisl vestibulum tincidunt laoreet.
+
+            Sed eleifend leo id mollis eleifend. Aliquam erat volutpat. Aenean porta viverra elit, non mattis nisl. Suspendisse potenti. Vivamus dictum nec orci in placerat. Etiam mi turpis, luctus ut nunc vel, tempus fringilla mauris. Curabitur consectetur dui vel dolor dignissim tempus. In interdum dignissim est, sed rutrum ligula malesuada vel. Pellentesque vitae sapien nisi. Donec vitae bibendum metus, id placerat sapien. Vivamus vestibulum semper imperdiet. Maecenas blandit feugiat bibendum. Donec ornare ex non arcu congue finibus. Pellentesque mattis tincidunt mi. In hendrerit, nisi sit amet mollis venenatis, nulla nisl aliquet odio, ut dignissim quam eros at lorem. Fusce scelerisque sapien in augue sollicitudin, sed tempus est auctor.
+
+            Suspendisse tristique lacinia fringilla. Nunc quis nunc mi. Sed eros orci, vehicula sit amet faucibus in, commodo non tellus. Fusce id massa at lorem semper dictum et vitae ante. Praesent mauris nisi, bibendum eu libero et, commodo malesuada lorem. Suspendisse commodo nibh eu erat tempus lacinia. Maecenas a nulla ultrices, dapibus tortor quis, molestie quam. Quisque facilisis, enim sed aliquam consectetur, erat arcu vulputate nisi, ac congue libero augue at lorem. Etiam lacinia metus ac pellentesque pulvinar. Vivamus nec venenatis metus. Nulla venenatis rutrum erat at faucibus.
+
+            Vivamus accumsan eleifend tellus, eget molestie orci egestas a. Quisque eleifend urna eu velit interdum, ut efficitur dui luctus. Maecenas molestie arcu sem, vel interdum lectus gravida sed. Mauris vitae rhoncus velit. Duis dignissim odio et neque posuere, sed sodales neque volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam interdum suscipit purus sit amet sollicitudin. Duis a est ut erat cursus consequat.
+
+            Donec vehicula at lectus non sodales. Aliquam eu sapien urna. Curabitur bibendum sed lacus id malesuada. Fusce euismod tellus enim. Quisque eget lacus at mi suscipit pulvinar. Suspendisse potenti. Pellentesque quis placerat libero. Nulla vel consectetur magna. Nam faucibus mi nec diam consectetur suscipit.
+        </p>
+    </main>
+    <footer id="bot">
+        <b>This is the bottom of the Page!</b>
+    </footer>
+</body>
+</html>
