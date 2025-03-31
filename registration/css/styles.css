@@ -10,7 +10,8 @@ h1 {
     text-align: left;
 }
 
-* {margin: 3px;}
+* {margin: 3px;
+text-align:left;}
 
 
  button {
