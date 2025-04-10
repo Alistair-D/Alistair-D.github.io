@@ -14,8 +14,9 @@
         let rad = document.getElementById('rad').value;
 
         rad=Number(rad);
-        let are = pi*(rad**2); 
-        let crc = 2*pi*rad;
+        pi=Number(pi);
+        let are = pi*(rad*rad); 
+        let crc = (2*pi*rad);
 
         crc = crc.toFixed(3);
         are = are.toFixed(3);
