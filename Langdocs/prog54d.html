@@ -6,6 +6,38 @@
     <title>Prog54d</title>
 </head>
 <body>
+    <label for="bse">Base:</label>
+    <input type="number" id="bse" name="bse">
 
+    <label for="hgt">Height: </label>
+    <input type="number" id="hgt" name="hgt">
+
+    <button onclick="
+        let bse = document.getElementById('bse').value;
+        let hgt = document.getElementById('hgt').value;
+
+        bse=Number(bse);
+        hgt=Number(hgt);
+
+        let area = bse * hgt / 2;
+
+        let hyp1 = (bse ** 2) + (hgt ** 2);
+        let hyp2 = Math.sqrt(hyp1);
+        hyp2 = hyp2.toFixed(2);
+
+
+        let bse2 = document.getElementById('bse').value;
+        let hgt2 = document.getElementById('hgt').value;
+
+        bse2=Number(bse2);
+        hgt2=Number(hgt2);
+        hyp2=Number(hyp2)
+        let per =  bse2 + hgt2 + hyp2;
+
+
+
+
+        document.writeln( 'Hypotenuse: ' + hyp2 +   '<br><br> Area of a Triangle: ' + area +   ' <br><br>Perimeter Triangle: ' + per );
+    "> Calculate</button>
 </body>
 </html>
