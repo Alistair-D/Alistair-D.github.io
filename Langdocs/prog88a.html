@@ -1,0 +1,51 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prog88a</title>
+    </head>
+    <body>
+        <input type="number" id="num1" min="1" max="13">
+        <input type="number" id="num2" min="2" max="20">
+        <button onclick="calc()">Calculate</button>
+        <p id="output"></p>
+
+        <script>
+            function calc() {
+                let num1 = Number(document.getElementById("num1").value);
+                let num2 = Number(document.getElementById("num2").value);
+                // Find Sum, difference, product, avg, abs, distance, max/min
+
+                let sum = num1 + num2;
+                let dif = num1 - num2;
+                let pro = num1 * num2;
+                let avg = num1 + num2 / 2;
+                let abs = Math.abs(dif);
+                let max = 0;
+                let min = 0;
+
+                if (num1 >= num2) {
+                    max = num1;
+                    min = num2;
+                }
+
+                if (num1 < num2) {
+                    max = num2;
+                    min = num1;
+                }
+
+
+                let p = document.getElementById('out');
+                p.innerHTML = "";
+                p.innerHTML += "Sum: " + sum + "<br>";
+                p.innerHTML += "Difference: " + dif + "<br>";
+                p.innerHTML += "Prduct: " + pro + "<br>";
+                p.innerHTML += "Max: " + max + "<br>";
+                p.innerHTML += "Min: " + min + "<br>";
+
+
+            }
+        </script>
+    </body>
+    </html>
