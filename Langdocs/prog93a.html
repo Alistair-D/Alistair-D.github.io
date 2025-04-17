@@ -11,11 +11,34 @@
 
     <button onclick="
 
-    kil=Number(kil);
-        let sur = kil * 0.1;
-        let uti = 
-    "> Calculate</button>
+        let kil = document.getElementById('kil').value;
 
+
+        kil=Number(kil);
+
+        let constant = 4.75;
+
+        let br = (constant * kil) * 0.01;
+        let sur = br * 0.1;
+        let CT = (br * 0.3) * 0.1;
+        Total = br + sur + CT;
+        Penalty = (Total * 0.04) + Total
+
+
+
+        br = br.toFixed(2);
+        sur = sur.toFixed(2);
+        CT = CT.toFixed(2);
+        Total = Total.toFixed(2)
+        Penalty = Penalty.toFixed(2)
+
+        document.writeln('Kilowatts Used: ' + kil + '<hr>' + 
+        'Base Rate: $' + br + '<br>'
+         + 'Surcharge: $' + sur + '<br>' + 'Citytax: $' + CT 
+        + '<br>' +  '<hr>' + 'Pay this Amount: $'  + Total +'<br>' + '<hr>'
+          + 'After May 20th Pay: $' + Penalty);
+
+    "> Calculate</button>
 
 </body>
 </html>
