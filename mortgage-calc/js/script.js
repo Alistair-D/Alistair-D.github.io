@@ -12,7 +12,7 @@ function calculate() {
 
 
     let b = 0;
-    let b = (pr*(1 + ra/12)**(12*t)) - mp*((1 + ra/12)**(12*t)-1)/(ra/12);
+    let b = (pr*(1 + ra/12)**(12*t)) - mp*(((1 + ra/12)**(12*t)-1)/(ra/12));
     document.getElementById('ba').value = "$" + b.toFixed(2);
 
 }
