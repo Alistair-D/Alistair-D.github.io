@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Select Practice</title>
+</head>
+<body>
+    <ul>
+        <li>Test 1</li>
+        <li>Test 2</li>
+        <li>Test 3</li>
+    </ul>
+    <p id="wow">Some text here</p>
+    
+    <h1 class="test">Heading 1</h1>
+    <h2 class="test">Heading 2</h2>
+    <h3 class="test">Heading 3</h3>
+
+    <script>
+        // Query selector grabs the first item that matches the given CSS selector
+        let h1 = document.querySelector(".test");
+        h1.innerHTML = "Updated Heading";
+
+        let p = document.querySelector("#wow");
+        p.textContent = "Paragraph";
+
+        let AllHtags = document.querySelectorAll(".test");
+        for (let i = 0; i < AllHtags.length; i++) {
+            AllHtags[1].style.backgroundColor = "green"
+        }
+
+        let AllHtagsCl = document.getElementsByClassName("test");
+        for (let i = 0; i < AllHtagsCl.length; i++) {
+            allHtagsCl[1].style.color = "white"
+        }
+
+        let lis = document.querySelectorAll("li");
+        for (let i = 0; i < lis.length; i++) {
+            lis[1].style.color = "purple";
+        }
+
+        console.log(document);
+    </script>
+</body>
+</html>
