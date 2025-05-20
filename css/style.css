@@ -1,0 +1,21 @@
+body {
+    background:#1C1919;
+    width: fit-content;
+    margin-right: inherit;
+    padding-left:100px;
+    color:white;
+}
+
+h1 {
+    float:left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:8px;
+}
+h2 {
+    margin-bottom: 0px;
+    color:rgb(165, 163, 163);
+}
+
+#maindiv {
+    text-align:left;
+}
