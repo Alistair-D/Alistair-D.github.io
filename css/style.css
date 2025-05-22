@@ -7,13 +7,15 @@ body {
 }
 
 h1 {
-    float:left;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top:8px;
+    margin-top:20px;
+    font-size:50px;
 }
 h2 {
     margin-bottom: 0px;
     color:rgb(165, 163, 163);
+    margin-top:100px;
+    font-size:25px;
 }
 
 #maindiv {
@@ -22,20 +24,23 @@ h2 {
 
 #green {
     color:#75CD3E;
+    font-size:25px;
 }
 
 #purple {
     color:#7882F0;
+    font-size:25px;
 }
 
 .topnav {
-  background-color: #333;
-  overflow: hidden;
-  width:250px;
+  background-color: #1C1919;
+  position:absolute;
+  top:55px;
+  left:550px;
+  width:60%;
 }
 
 .topnav a {
-  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -57,15 +62,29 @@ h2 {
     width:50px;
     height:50px;
     vertical-align:text-bottom;
-    float:left;
     text-align:left;
+    position:absolute;
+    top:-60px;
+    left:25px;
 }
 
 #projects {
-    float:right;
     text-align:right;
+    font-size:25px;
 }
 
-#home {
-    float:initial;
+#Home {
+    font-size:25px;
+}
+
+#about {
+    font-size:25px;
+}
+
+
+#profile {
+    position:absolute;
+    left:850px;
+    top:125px;
+    border-radius:45%;
 }
