@@ -10,13 +10,19 @@ h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top:20px;
     font-size:50px;
+    position:absolute;
+    top:125px;
 }
+
 h2 {
     margin-bottom: 0px;
     color:rgb(165, 163, 163);
     margin-top:100px;
     font-size:25px;
+    position:absolute;
+    top:5px;
 }
+
 
 #maindiv {
     text-align:left;
@@ -25,11 +31,15 @@ h2 {
 #green {
     color:#75CD3E;
     font-size:25px;
+    position:absolute;
+    top:255px;
 }
 
 #purple {
     color:#7882F0;
     font-size:25px;
+    position:absolute;
+    top:225px;
 }
 
 .topnav {
@@ -84,7 +94,40 @@ h2 {
 
 #profile {
     position:absolute;
-    left:850px;
+    left:900px;
     top:125px;
-    border-radius:45%;
+    border-radius:40%;
 }
+
+#GitLink {
+    position:absolute;
+    left:150px;
+    top:285px;
+}
+
+button {
+    position:absolute;
+    left:225px;
+    top:290px;
+    background-color:#1C1919;
+}
+
+
+#contacth1 {
+    text-align:left;
+    color:white;
+    position:absolute;
+    top:800px;
+
+}
+
+h3 {
+    color:white;
+    position:relative;
+    top:500px;
+    left:550px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:lighter;
+}
+
+
