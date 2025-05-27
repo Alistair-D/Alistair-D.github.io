@@ -96,12 +96,20 @@ h2 {
     position:absolute;
     left:900px;
     top:125px;
-    border-radius:40%;
+    border-style:dashed;
+    padding:10px;
+
 }
 
 #GitLink {
     position:absolute;
     left:150px;
+    top:285px;
+}
+
+#YtLink {
+    position:absolute;
+    left:220px;
     top:285px;
 }
 
@@ -124,10 +132,21 @@ button {
 h3 {
     color:white;
     position:relative;
-    top:500px;
+    top:600px;
     left:550px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight:lighter;
 }
 
+#DownArrow1 {
+    position:absolute;
+    top:610px;
+    left:750px;
+}
+
+hr {
+    color:white;
+    position:absolute;
+    
+}
 
