@@ -98,6 +98,7 @@ h2 {
     top:125px;
     border-style:dashed;
     padding:10px;
+    width:20%;
 
 }
 
@@ -147,6 +148,69 @@ h3 {
 hr {
     color:white;
     position:absolute;
-    
 }
+
+.container {
+    position:absolute;
+    top:1000px;
+    left:900px;
+    color:black;
+    font-family:monospace;
+}
+
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Credits: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px; }
+  
+
+  h4 {
+    font-size:larger;
+    position: relative;
+    top:850px;
+    left:25px;
+    color:lightpink;
+    text-decoration:underline;
+  }
+
+  #contactabout {
+    position:relative;
+    top:900px;
+    width:40%;
+  }
+
+#Allo {
+    position:absolute;
+    top:400px;
+    left: 0;
+    transform: scaleX(-1);
+}
+
 
