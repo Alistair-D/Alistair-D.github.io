@@ -1,3 +1,9 @@
+* {
+  user-select: none;
+  -webkit-user-select: none; /* For Safari */
+  -ms-user-select: none;     /* For IE/Edge */
+}
+
 body {
     background:#1C1919;
     width: fit-content;
@@ -45,7 +51,7 @@ h2 {
 .topnav {
   background-color: #1C1919;
   position:absolute;
-  top:55px;
+  top:60px;
   left:550px;
   width:60%;
 }
@@ -74,8 +80,8 @@ h2 {
     vertical-align:text-bottom;
     text-align:left;
     position:absolute;
-    top:-60px;
-    left:25px;
+    top:-65px;
+    left:22px;
 }
 
 #projects {
@@ -213,4 +219,33 @@ input[type=submit]:hover {
     transform: scaleX(-1);
 }
 
+#Life {
+  color:#C1FF76;
+  font-size:100px;
+  transform: rotate(-90deg);
+  position:relative;
+  left:-125px;
+  top:200px;
+}
 
+
+#aboutS {
+  top:95px;
+  
+}
+
+#aboutLife {
+  top:250px;
+}
+
+#aboutS, #aboutLife {
+  position:absolute;
+  left:670px;
+  width:40%;
+  
+}
+
+#Mylife {
+  position:relative;
+  left:200px;
+}
