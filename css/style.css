@@ -151,6 +151,12 @@ h3 {
     left:750px;
 }
 
+#DownArrow2 {
+    position:absolute;
+    top:720px;
+    left:750px;
+}
+
 hr {
     color:white;
     position:absolute;
@@ -230,8 +236,7 @@ input[type=submit]:hover {
 
 
 #aboutS {
-  top:95px;
-  
+  top:125px;
 }
 
 #aboutLife {
@@ -245,7 +250,52 @@ input[type=submit]:hover {
   
 }
 
+
+
+#abouta {
+  top:945px;
+}
+
+#aboutA {
+  top:820px;
+}
+
+#abouta, #aboutA {
+  position:absolute;
+  left:670px;
+  width:30%;
+  
+}
+
 #Mylife {
   position:relative;
   left:200px;
 }
+
+#athleticdown {
+  position:absolute;
+  left:680px;
+  top:710px;
+  color:#979BF3;
+}
+
+#Track {
+  position:absolute;
+  top:900px;
+  left: 300px;
+}
+
+table {
+  position:absolute;
+  top:900px;
+  left:1120px;
+  background-color:white;
+  color:black;
+}
+
+table, th, td {
+            border: 1px solid black;
+            border-collapse:collapse;
+            padding: 10px;
+            font-family:"Quantico", sans-serif;
+        }
