@@ -2,6 +2,7 @@
   user-select: none;
   -webkit-user-select: none; /* For Safari */
   -ms-user-select: none;     /* For IE/Edge */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -54,6 +55,7 @@ h2 {
   top:60px;
   left:550px;
   width:60%;
+  font-family: "Lucida Console", "Courier New", monospace !important;
 }
 
 .topnav a {
@@ -141,7 +143,7 @@ h3 {
     position:relative;
     top:600px;
     left:550px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
     font-weight:lighter;
 }
 
@@ -204,12 +206,13 @@ input[type=submit]:hover {
   
 
   h4 {
-    font-size:larger;
+    font-size:30px;
     position: relative;
     top:850px;
     left:25px;
     color:lightpink;
     text-decoration:underline;
+    margin-bottom:0;
   }
 
   #contactabout {
@@ -298,4 +301,87 @@ table, th, td {
             border-collapse:collapse;
             padding: 10px;
             font-family:"Quantico", sans-serif;
-        }
+}
+
+
+#Athletics {
+  color:#979BF3;
+  font-size:100px;
+  transform: rotate(-90deg);
+  position:relative;
+  left:-125px;
+  top:350px;
+}
+
+#Timeline {
+  color:#FA6363;
+  font-size:100px;
+  transform: rotate(-90deg);
+  position:relative;
+  left:-125px;
+  top:950px;
+}
+
+ /* Credits https://www.w3schools.com/howto/howto_css_timeline.asp */
+.timeline {
+  position: absolute;
+  top:1950px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 800px;
+  left:400px;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #ccc;
+}
+.timeline-container {
+  position: relative;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 49%;
+  width: 15px;
+  height: 15px;
+  background-color: #007bff;
+  border-radius: 50%;
+  z-index: 1;
+}
+.timeline-content {
+  padding: 20px;
+}
+.timeline-date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #777;
+}
+@media screen and (max-width: 768px) {
+  .timeline {
+    width: 90%;
+  }
+  .timeline-container {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .timeline-container::before {
+    left: 49%;
+  }
+}
+
+
+#timelinep {
+  color:black;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple Timeline</title>
+<style>
+.timeline {
+  position: absolute;
+  top:950px;
+  padding: 10px;
+  margin: 0 auto;
+  width: 800px;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #ccc;
+}
+.timeline-container {
+  position: relative;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.timeline-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 49%;
+  width: 15px;
+  height: 15px;
+  background-color: #007bff;
+  border-radius: 50%;
+  z-index: 1;
+}
+.timeline-content {
+  padding: 20px;
+}
+.timeline-date {
+  font-size: 14px;
+  font-weight: bold;
+  color: #777;
+}
+@media screen and (max-width: 768px) {
+  .timeline {
+    width: 90%;
+  }
+  .timeline-container {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .timeline-container::before {
+    left: 49%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="timeline">
+  <div class="timeline-container">
+    <div class="timeline-date">2023</div>
+    <div class="timeline-content">
+      <h2>Event 1</h2>
+      <p>Description of event 1.</p>
+    </div>
+  </div>
+  <div class="timeline-container">
+    <div class="timeline-date">2022</div>
+    <div class="timeline-content">
+      <h2>Event 2</h2>
+      <p>Description of event 2.</p>
+    </div>
+  </div>
+  <!-- Add more timeline containers as needed -->
+</div>
+</body>
+</html>
