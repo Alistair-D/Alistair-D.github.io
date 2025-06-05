@@ -161,7 +161,7 @@ h3 {
 
 #DownArrow3 {
     position:absolute;
-    top:1620px;
+    top:1420px;
     left:750px;
 }
 
@@ -395,5 +395,6 @@ table, th, td {
 #TimelineDown {
   color:#FA6363; 
   position:absolute;
-  top:1300px;
+  top:1410px;
+  left:680px;
 }
