@@ -331,7 +331,7 @@ table, th, td {
  /* Credits https://www.w3schools.com/howto/howto_css_timeline.asp */
 .timeline {
   position: absolute;
-  top:1750px;
+  top:1650px;
   padding: 10px;
   margin: 0 auto;
   width: 800px;
@@ -394,4 +394,6 @@ table, th, td {
 
 #TimelineDown {
   color:#FA6363; 
+  position:absolute;
+  top:1300px;
 }
