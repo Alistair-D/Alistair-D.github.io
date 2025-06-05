@@ -13,7 +13,7 @@ behavior: 'smooth'
 
 document.getElementById('DownArrow3').addEventListener('click', function() {
 window.scrollBy({
-top: 900, 
+top: 1000, 
 left: 0,
 behavior: 'smooth' 
 });
