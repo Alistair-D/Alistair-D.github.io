@@ -10,7 +10,7 @@ behavior: 'smooth'
 
 document.getElementById('DownArrow2').addEventListener('click', function() {
 window.scrollBy({
-top: 1000, 
+top: 900, 
 left: 0,
 behavior: 'smooth' 
 });
