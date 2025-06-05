@@ -186,20 +186,12 @@ h3 {
     left:750px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 196cc242ba38c29418503d631d1d32efc9bf0c27
 #DownArrow3 {
     position:absolute;
     top:1420px;
     left:750px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 196cc242ba38c29418503d631d1d32efc9bf0c27
 hr {
     color:white;
     position:absolute;
@@ -458,19 +450,12 @@ table, th, td {
   color:black;
 }
 
-<<<<<<< HEAD
-
-#TimelineDown {
-  color:#FA6363;
-=======
 #TimelineDown {
   color:#FA6363; 
->>>>>>> 196cc242ba38c29418503d631d1d32efc9bf0c27
   position:absolute;
   top:1410px;
   left:680px;
 }
-<<<<<<< HEAD
 
 
 #Drawing {
@@ -520,5 +505,3 @@ table, th, td {
   left:1170px;
   width:20%;
 }
-=======
->>>>>>> 196cc242ba38c29418503d631d1d32efc9bf0c27
