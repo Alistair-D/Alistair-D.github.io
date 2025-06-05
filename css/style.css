@@ -5,6 +5,7 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 body {
     background:#1C1919;
     width: fit-content;
@@ -13,6 +14,7 @@ body {
     color:white;
 }
 
+
 h1 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top:20px;
@@ -20,6 +22,7 @@ h1 {
     position:absolute;
     top:125px;
 }
+
 
 h2 {
     margin-bottom: 0px;
@@ -31,9 +34,12 @@ h2 {
 }
 
 
+
+
 #maindiv {
     text-align:left;
 }
+
 
 #green {
     color:#75CD3E;
@@ -42,12 +48,14 @@ h2 {
     top:255px;
 }
 
+
 #purple {
     color:#7882F0;
     font-size:25px;
     position:absolute;
     top:225px;
 }
+
 
 .topnav {
   background-color: #1C1919;
@@ -58,6 +66,7 @@ h2 {
   font-family: "Lucida Console", "Courier New", monospace !important;
 }
 
+
 .topnav a {
   color: #f2f2f2;
   text-align: center;
@@ -66,15 +75,18 @@ h2 {
   font-size: 17px;
 }
 
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
+
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
 }
+
 
 .icon {
     width:50px;
@@ -86,18 +98,23 @@ h2 {
     left:22px;
 }
 
+
 #projects {
     text-align:right;
     font-size:25px;
 }
 
+
 #Home {
     font-size:25px;
 }
 
+
 #about {
     font-size:25px;
 }
+
+
 
 
 #profile {
@@ -108,7 +125,9 @@ h2 {
     padding:10px;
     width:20%;
 
+
 }
+
 
 #GitLink {
     position:absolute;
@@ -116,11 +135,13 @@ h2 {
     top:285px;
 }
 
+
 #YtLink {
     position:absolute;
     left:220px;
     top:285px;
 }
+
 
 button {
     position:absolute;
@@ -130,13 +151,17 @@ button {
 }
 
 
+
+
 #contacth1 {
     text-align:left;
     color:white;
     position:absolute;
     top:800px;
 
+
 }
+
 
 h3 {
     color:white;
@@ -147,11 +172,13 @@ h3 {
     font-weight:lighter;
 }
 
+
 #DownArrow1 {
     position:absolute;
     top:610px;
     left:750px;
 }
+
 
 #DownArrow2 {
     position:absolute;
@@ -159,10 +186,19 @@ h3 {
     left:750px;
 }
 
+
+#DownArrow3 {
+    position:absolute;
+    top:1420px;
+    left:750px;
+}
+
+
 hr {
     color:white;
     position:absolute;
 }
+
 
 .container {
     position:absolute;
@@ -173,16 +209,19 @@ hr {
 }
 
 
+
+
 input[type=text], select, textarea {
   width: 90%;
   padding: 12px;  
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
+
 
 input[type=submit] {
   background-color: #04AA6D;
@@ -194,16 +233,20 @@ input[type=submit] {
 }
 
 
+
+
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
 
 /* Credits: https://www.w3schools.com/howto/howto_css_contact_form.asp */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px; }
-  
+ 
+
 
   h4 {
     font-size:30px;
@@ -215,11 +258,13 @@ input[type=submit]:hover {
     margin-bottom:0;
   }
 
+
   #contactabout {
     position:relative;
     top:900px;
     width:40%;
   }
+
 
 #Allo {
     position:absolute;
@@ -227,6 +272,7 @@ input[type=submit]:hover {
     left: 0;
     transform: scaleX(-1);
 }
+
 
 #Life {
   color:#C1FF76;
@@ -238,20 +284,27 @@ input[type=submit]:hover {
 }
 
 
+
+
 #aboutS {
   top:125px;
 }
+
 
 #aboutLife {
   top:250px;
 }
 
+
 #aboutS, #aboutLife {
   position:absolute;
   left:670px;
   width:40%;
-  
+ 
 }
+
+
+
 
 
 
@@ -259,21 +312,25 @@ input[type=submit]:hover {
   top:945px;
 }
 
+
 #aboutA {
   top:820px;
 }
+
 
 #abouta, #aboutA {
   position:absolute;
   left:670px;
   width:30%;
-  
+ 
 }
+
 
 #Mylife {
   position:relative;
   left:200px;
 }
+
 
 #athleticdown {
   position:absolute;
@@ -282,11 +339,13 @@ input[type=submit]:hover {
   color:#979BF3;
 }
 
+
 #Track {
   position:absolute;
   top:900px;
   left: 300px;
 }
+
 
 table {
   position:absolute;
@@ -296,12 +355,15 @@ table {
   color:black;
 }
 
+
 table, th, td {
             border: 1px solid black;
             border-collapse:collapse;
             padding: 10px;
             font-family:"Quantico", sans-serif;
 }
+
+
 
 
 #Athletics {
@@ -313,6 +375,7 @@ table, th, td {
   top:350px;
 }
 
+
 #Timeline {
   color:#FA6363;
   font-size:100px;
@@ -322,10 +385,11 @@ table, th, td {
   top:950px;
 }
 
+
  /* Credits https://www.w3schools.com/howto/howto_css_timeline.asp */
 .timeline {
   position: absolute;
-  top:1950px;
+  top:1650px;
   padding: 10px;
   margin: 0 auto;
   width: 800px;
@@ -382,6 +446,65 @@ table, th, td {
 }
 
 
+
+
 #timelinep {
   color:black;
+}
+
+
+#TimelineDown {
+  color:#FA6363;
+  position:absolute;
+  top:1410px;
+  left:680px;
+}
+
+
+#Drawing {
+  position:absolute;
+  top:200px;
+}
+
+
+#Strava {
+  position:absolute;
+  top:200px;
+  left:900px;
+}
+
+
+#Fossil {
+  position:absolute;
+  top:600px;
+  left:60px;
+}
+
+
+
+
+#DrawingP {
+  position:absolute;
+  top:250px;
+  left:370px;
+  width:30%;
+ 
+
+
+}
+
+
+#FossilP {
+  position:absolute;
+  top:650px;
+  left:370px;
+  width:30%;
+}
+
+
+#StravaP {
+  position:absolute;
+  top:250px;
+  left:1170px;
+  width:20%;
 }
